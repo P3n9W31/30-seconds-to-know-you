@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>情报收集</title>
+</head>
+<body>
+<outline text="情报收集"><outline text="外围信息收集"><outline text="通过DNS和IP地址挖掘目标的网络信息"><outline text="已知：域名"><outline text=""><outline text="whois域名注册成信息查询"><outline text="域名持有者"></outline>
+<outline text="管理员email、电话、传真"></outline>
+<outline text="域名服务器信息"></outline>
+<outline text="注册时间"></outline>
+</outline>
+<outline text="nslookup域名查询"><outline text="域名IP地址的非权威解答"></outline>
+</outline>
+<outline text="netcraft网站提供的信息查询服务"><outline text="http://searchdns.netcraft.com"><outline text="子站点"></outline>
+<outline text="地理位置"></outline>
+<outline text="服务器地址"></outline>
+<outline text="服务器操作系统类型"></outline>
+<outline text="服务器运行状态"></outline>
+<outline text="站点排名"></outline>
+<outline text="web服务器版本"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="已知：域名、域名服务器"><outline text="dig域名查询"><outline text="域名IP地址的权威解答"></outline>
+</outline>
+</outline>
+<outline text="已知：IP地址"><outline text="IP2Location地理位置查询"><outline text="GeoIP: http://www.maxmind.com里使用该服务_国外较适用"><outline text="具体位置"></outline>
+<outline text="经纬度"></outline>
+</outline>
+</outline>
+<outline text="QQ纯真数据库"><outline text="http://www.cz88.net 里使用该服务_国内较适用"><outline text="具体位置"></outline>
+</outline>
+</outline>
+<outline text="IP2Domin反查域名"><outline text="http://www.ip-adress.com/reverse_ip"><outline text="指向ip的所有域名"></outline>
+<outline text="地理位置"></outline>
+</outline>
+</outline>
+<outline text="国内IP反查询"><outline text="http://www.7c.com/ "><outline text="指向ip的所有域名"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="通过搜索引擎进行信息查询"><outline text="已知：域名"><outline text="Google Hacking技术"><outline text="Windows软件:SiteDigger、Search Diggity"><outline text="各种信息"></outline>
+</outline>
+</outline>
+<outline text="搜索网站的目录结构"><outline text="Google中指定Site，搜索文件名"><outline text="网站文件列表的目录"><outline text="留意robots.txt的反爬虫文件"></outline>
+</outline>
+</outline>
+<outline text="Metasploit的dir_scanner辅助模块"><outline text="网站隐藏目录"></outline>
+</outline>
+</outline>
+<outline text="检索特定类型的文件"><outline text="Google中指定Site，搜索文件类型"><outline text="通讯录"></outline>
+<outline text="账单"></outline>
+<outline text="用户信息合集"></outline>
+</outline>
+</outline>
+<outline text="搜索网站中的email地址"><outline text="Metasploit的search_email_collector模块"><outline text="指定网站中包含目标域名的email地址"></outline>
+</outline>
+</outline>
+<outline text="搜索易存在SQL注入点的页面"><outline text="Google1中指定Site，搜索inurl:login"><outline text="网站的登录界面"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="主机检测与端口扫描"><outline text="活跃主机扫描"><outline text="已知：域名或IP"><outline text="ICMP Ping命令"><outline text="判断某个主机是否活跃"></outline>
+</outline>
+<outline text="Metasploit的主机发现模块"><outline text="arp_sweep(常用)"></outline>
+<outline text="ipv6_multicast_ping"></outline>
+<outline text="ipv6_neighbor"></outline>
+<outline text="ipv6_neighbor_router_advertisement"><outline text="网段上的所有活跃主机"></outline>
+</outline>
+<outline text="udp_probe"></outline>
+<outline text="upd_sweep(常用)"></outline>
+</outline>
+<outline text="使用Nmap进行主机探测"><outline text="nmap &lt;扫描选项&gt; &lt;扫描目标&gt;"><outline text="网段上的所有主机"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="操作系统识别"><outline text="已知：IP"><outline text="使用Nmap探测目标主机的操作系统版本"><outline text="nmap -o 目标地址"><outline text="主机的操作系统版本"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="端口扫描与服务类型"><outline text="已知：IP"><outline text="Metasploit中的端口扫描器portscan"><outline text="开放端口"></outline>
+</outline>
+<outline text="Nmap端口扫描"><outline text="端口上开放的服务"></outline>
+<outline text="服务版本信息"></outline>
+</outline>
+<outline text="AutoScan查看网络情况(可能不够精确)"><outline text="活跃主机"></outline>
+<outline text="操作系统版本"></outline>
+<outline text="开放端口和服务"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="服务扫描与查点"><outline text="Metasploit中search name:_version显示的模块"><outline text="已知：IP"><outline text="Telnet服务扫描"><outline text="telnet_version"><outline text="检查有无Telnet服务"></outline>
+</outline>
+</outline>
+<outline text="SSH服务扫描"><outline text="ssh_version"><outline text="检查有无SSH服务"></outline>
+</outline>
+</outline>
+<outline text="Oracle服务查点"><outline text="tnslsnr_version"><outline text="查找开放的Oracle监听服务器"></outline>
+<outline text="Orecle版本号"></outline>
+</outline>
+</outline>
+<outline text="开放代理探测与利用"><outline text="open_proxy"><outline text="配置代理服务器隐藏IP地址"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</body>
+</opml>
