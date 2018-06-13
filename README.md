@@ -1,8 +1,16 @@
 
 # 30-seconds-to-know-you
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ZhanPwBibiBibi/30-seconds-to-know-you/blob/master/LICENSE.md)
+
+
 A collection of useful ways to collect information about your target in 30 seconds. 
 
 30秒内收集有关目标信息的方法集合。
+
+## Preview
+![](30-seconds-to-know-you.png)
+
 ## Reference
 [1]. 诸葛建伟, 陈力波, and 田繁. "Metasploit 渗透测试魔鬼训练营." 中国科技信息 20 (2013): 60-60.
 
